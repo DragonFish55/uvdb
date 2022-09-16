@@ -1,0 +1,79 @@
+$menucolor:rgb(59, 48, 48);;
+$btntxtclr:white;
+
+.menubar{
+    width: 100%;
+    height: 100%;
+    background-color: $menucolor;
+    display: flex;
+    flex-direction: row;
+}
+
+.menubtns{
+    height: 100%;
+    width: fit-content;
+    display: flex;
+}
+
+.menubtns button{
+    height: 100%;
+    text-align: center;
+    width: 3rem;
+    border: none;
+    background-color: $menucolor;
+    color: $btntxtclr;
+}
+
+
+.menubtn{
+    height: 100%;
+    width: fit-content;
+
+}
+
+
+
+.menubtn button:hover{
+    background-color: white;
+    color: black;
+}
+
+.actionbtn button:hover{
+    background-color: white;
+    color: black;
+}
+
+.appname{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    
+}
+
+.apptitle{
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+
+.actionbtns{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+}
+
+.actionbtns button{
+    height: 100%;
+    text-align: center;
+    width: 5rem;
+    border: none;
+    color: $btntxtclr;
+    background-color: $menucolor;
+}
+
+.logreg{
+    height: 100%;
+    width: fit-content;
+    color: white;
+}

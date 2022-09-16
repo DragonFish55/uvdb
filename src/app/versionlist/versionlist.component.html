@@ -1,0 +1,11 @@
+<div class = "versionlist">
+    <div class="versionbox">
+        <input type="text" placeholder="Version">
+        <button (click)="showVersions()"></button>
+    </div>
+    <div *ngFor="let version of versions" class="drpdwnversion">
+        <div class="versionItem">
+            <button (click)="selectVersion()">{{version.name}}</button>
+        </div>
+    </div>
+</div>
