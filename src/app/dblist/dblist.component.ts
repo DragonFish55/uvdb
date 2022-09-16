@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {map} from 'rxjs/operators'
+import { HttpClientModule } from '@angular/common/http';
 
 
 @Component({
@@ -41,7 +42,8 @@ export class DblistComponent implements OnInit {
   }
 
   downloadDB(name: string){
-    console.log(name)  
+    console.log(name)
+    fetch()  
   }
 
 }

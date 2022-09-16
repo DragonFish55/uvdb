@@ -9,6 +9,19 @@ export class VersionlistComponent implements OnInit {
 
   constructor() { }
 
+
+  versions = [{
+    name: "hey"
+  }]
+
+  showVersions(){
+    console.log("hi");
+  }
+
+  selectVersion(){
+    console.log("hi");
+  }
+
   ngOnInit(): void {
   }
 
