@@ -4,7 +4,9 @@
             <div class="dbinner">
                 
                 <div class = "dbname">{{db.name}}</div>
-                <div class = "dbsize">{{db.size}}</div>
+                <div class="versionlist">
+                    <app-versionlist></app-versionlist>
+                </div>
                 <div class = "dbdwnld">
                     <button (click) = "downloadDB(db.name)">Download</button>
                 </div>

@@ -1,0 +1,32 @@
+[
+    {
+        "name":"PSQL",
+        "download": "h",
+        "icon":"img",
+        "size": "330MB"
+    },
+    {
+        "name":"MySQL",
+        "download": "h",
+        "icon":"img",
+        "size": "100MB"
+    },
+    {
+        "name":"MariaDB",
+        "download": "h",
+        "icon":"img",
+        "size": "500MB"
+    },
+    {
+        "name":"SQLServer",
+        "download": "h",
+        "icon":"img",
+        "size": "100MB"
+    },
+    {
+        "name":"NoSQL",
+        "download": "h",
+        "icon":"img",
+        "size": "100MB"
+    }
+]

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {map} from 'rxjs/operators'
 import { HttpClientModule } from '@angular/common/http';
-
+import dt from '../../assets/data/sqltypes.json'; 
 
 @Component({
   selector: 'app-dblist',
@@ -10,32 +10,8 @@ import { HttpClientModule } from '@angular/common/http';
 })
 export class DblistComponent implements OnInit {
 
-  dbases = [
-    {
-        "name":"PostgreSQL",
-        "download": "h",
-        "icon":"img",
-        "size": "330MB"
-    },
-    {
-        "name":"MySQL",
-        "download": "h",
-        "icon":"img",
-        "size": "100MB"
-    },
-    {
-        "name":"MariaDB",
-        "download": "h",
-        "icon":"img",
-        "size": "500MB"
-    },
-    {
-        "name":"SQLServer",
-        "download": "h",
-        "icon":"img",
-        "size": "100MB"
-    }
-]
+  dbases = dt;
+  
   constructor() { }
 
   ngOnInit(): void {
@@ -43,7 +19,6 @@ export class DblistComponent implements OnInit {
 
   downloadDB(name: string){
     console.log(name)
-    fetch()  
   }
 
 }

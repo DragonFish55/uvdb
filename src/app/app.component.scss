@@ -1,10 +1,44 @@
 .dbouter{
-    width: 350px;
-    height: fit-content;
-    background-color: blue;
+    width: 450px;
+    height: 100%;
+    background-color: gray;
 }
+
+.dbinner{
+    width: 100%;
+    height: fit-content;
+    
+    
+}
+
+.dbscroll{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
 
 .appmenu{
     width: 100%;
     height: 35px;
+}
+
+.dbnav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    border-bottom: white;
+    
+}
+
+.dbnav button{
+    background-color: black;
+    color: white;
+}
+
+.dbnav button:hover{
+    background-color: white;
+    color:black;
 }
