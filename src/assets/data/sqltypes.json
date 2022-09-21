@@ -18,7 +18,7 @@
         "size": "500MB"
     },
     {
-        "name":"SQLServer",
+        "name":"MSSQL",
         "download": "h",
         "icon":"img",
         "size": "100MB"

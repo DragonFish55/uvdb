@@ -1,18 +1,28 @@
 
 <div class="signupcomp">
-    <div class="title">Signup</div>
-    <div class="usrnfld">
-        <label for="uname"></label>
+    <div class="titlesign">
+        <div class="titleunder">
+            Signup
+        </div>
+    </div>
+    <div class="signupfield">
+        <label for="uname">Username</label>
         <input type="text" id="uname" name="uname" required>
     </div>
-    <div class="passfld">
-        <label for="pass"></label>
+    <div class="signupfield">
+        <label for="pass">Password</label>
         <input type="password" name="pass" id = "pass" required>
     </div>
-    <div class="confpassfld">
+    <div class="signupfield">
+        <label for="confpass">Confirm Password</label>
         <input type="password" id = "confpass"  required>
     </div>
-    <div class="navsignin">
-
+    <div class="navforms">
+        <div class = "navsignin">
+            <button (click) = "Switchr()">Signin?</button>
+        </div>
+        <div class = "regform">
+            <button>Register</button>
+        </div>
     </div>
 </div>

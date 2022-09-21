@@ -8,6 +8,7 @@
 
 .dbchoices:not(:nth-child(1)){
     border-top: 1px solid white;
+    border-top-width: 0%;
 }
 
 .dbchoice{
@@ -32,8 +33,8 @@
 }
 
 .dbname{
-    padding-left: 0.5rem;
-    width: 60%;
+    padding: 0.5rem 0;
+    width: 200px;
 }
 
 .dbsize{

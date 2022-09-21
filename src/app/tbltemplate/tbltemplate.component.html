@@ -1,0 +1,24 @@
+<div class="tbltemplate">
+    <div class="temptblname">
+        
+    </div>
+    <div class="tableinfo">
+        <div class="tablefields"></div>
+        <div *ngFor="let user of users" class="userslist">
+            <div class="userentry">
+                <div class="user_name">Hey</div>
+                <div class="permissions">
+                    <div *ngif="read">R</div>
+                    <div *ngif="write">W</div>
+                    <div *ngif="execute">X</div>
+                </div>
+                <div class = "removeuser">
+                    <button id="removeuser"></button>
+                </div>
+            </div>
+        </div>
+        <div class="managetable">
+            <button id="deletetbl">Delete</button>
+        </div>
+    </div>
+</div>

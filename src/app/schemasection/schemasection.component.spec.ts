@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RefertableComponent } from './refertable.component';
+import { SchemasectionComponent } from './schemasection.component';
 
-describe('RefertableComponent', () => {
-  let component: RefertableComponent;
-  let fixture: ComponentFixture<RefertableComponent>;
+describe('SchemasectionComponent', () => {
+  let component: SchemasectionComponent;
+  let fixture: ComponentFixture<SchemasectionComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ RefertableComponent ]
+      declarations: [ SchemasectionComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(RefertableComponent);
+    fixture = TestBed.createComponent(SchemasectionComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

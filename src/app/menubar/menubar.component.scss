@@ -18,7 +18,7 @@ $btntxtclr:white;
 .menubtns button{
     height: 100%;
     text-align: center;
-    width: 3rem;
+    width: 100%;
     border: none;
     background-color: $menucolor;
     color: $btntxtclr;
@@ -27,7 +27,7 @@ $btntxtclr:white;
 
 .menubtn{
     height: 100%;
-    width: fit-content;
+    width: 50px;
 
 }
 
@@ -61,6 +61,7 @@ $btntxtclr:white;
     width: fit-content;
     height: 100%;
     display: flex;
+    
 }
 
 .actionbtns button{
@@ -73,7 +74,46 @@ $btntxtclr:white;
 }
 
 .logreg{
-    height: 100%;
-    width: fit-content;
+    width: 300px;
     color: white;
+    display: flex;
+    align-items: center;
+    z-index:5;
+}
+
+.signinbtn{
+    height: 80%;
+    width: 50px;
+}
+
+.signinbtn button{
+    background-color: black;
+    color: white;
+    border: 1px solid gold;
+}
+
+.signinbtn button:hover{
+    background-color: gold;
+    color: black;
+}
+
+
+.signupbox{
+    position:absolute;
+    top: 40px;
+    border-radius: 5px;
+    width: 250px;
+    height: fit-content;
+    background-color: rgb(92, 76, 76);
+}
+
+.signinbox{
+    position:absolute;
+    top: 40px;
+    border-radius: 5px;
+    width: 250px;
+    height: fit-content;
+    background-color: rgb(92, 76, 76);
+    
+    
 }

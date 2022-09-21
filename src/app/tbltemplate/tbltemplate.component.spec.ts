@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DbinfoComponent } from './dbinfo.component';
+import { TbltemplateComponent } from './tbltemplate.component';
 
-describe('DbinfoComponent', () => {
-  let component: DbinfoComponent;
-  let fixture: ComponentFixture<DbinfoComponent>;
+describe('TbltemplateComponent', () => {
+  let component: TbltemplateComponent;
+  let fixture: ComponentFixture<TbltemplateComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DbinfoComponent ]
+      declarations: [ TbltemplateComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DbinfoComponent);
+    fixture = TestBed.createComponent(TbltemplateComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

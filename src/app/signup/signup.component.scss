@@ -1,14 +1,34 @@
 .singupcomp{
     display: flex;
     flex-direction: column;
-    height: 100%;
+    width: 100%;
+    
+}
+
+.titlesign{
+    height: 40px;
+    width: 100%;
+    padding: 0.5rem 0.5rem;
+    
+}
+
+.titleunder{
+    border-bottom: 1px solid white;
+    padding-bottom:0.5rem;
+}
+
+
+.signupfield{
+    padding:0.5rem;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
     width: 100%;
 }
 
-
-.title{
-    border-bottom: 1px solid white;
-    color: black;
+.navforms{
+    
+    
+    display: flex;
+    
 }
-
-

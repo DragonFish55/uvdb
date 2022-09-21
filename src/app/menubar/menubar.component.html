@@ -21,7 +21,16 @@
     </div>
 
     <div class="logreg">
-        <p>Signin</p>
+        <div class="signinbtn">
+            <button (click) = "signinVis()" id="signin_ctrl">Signin</button>
+        </div>
+        <div id="signinbox" class = "signinbox" style="visibility:hidden">
+            <app-signin [switchlog]="signupf"></app-signin>
+        </div>
+        <div id="signupbox" class = "signupbox" style="visibility:hidden">
+            <app-signup [Switchr]="signinf"></app-signup>
+        </div>
+        
     </div>
     <div class="actionbtns">
         <div class="actionbtn">

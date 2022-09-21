@@ -6,18 +6,19 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UsersdbComponent } from './usersdb/usersdb.component';
 import { DblistComponent } from './dblist/dblist.component';
-import { TableinfoComponent } from './tableinfo/tableinfo.component';
-import { DbinfoComponent } from './dbinfo/dbinfo.component';
-import { RefertableComponent } from './refertable/refertable.component';
 import { StatusbarComponent } from './statusbar/statusbar.component';
 import { CodescriptComponent } from './codescript/codescript.component';
 import { CodesectionComponent } from './codesection/codesection.component';
 import { MenubarComponent } from './menubar/menubar.component';
-import { TablelistComponent } from './tablelist/tablelist.component';
 import { SigninComponent } from './signin/signin.component';
 import { SignupComponent } from './signup/signup.component';
 import { VersionlistComponent } from './versionlist/versionlist.component';
 import { SchemaviewComponent } from './schemaview/schemaview.component';
+import { SchemasectionComponent } from './schemasection/schemasection.component';
+import { TableviewComponent } from './tableview/tableview.component';
+import { ScriptstatusComponent } from './scriptstatus/scriptstatus.component';
+import { DbtemplateComponent } from './dbtemplate/dbtemplate.component';
+import { TbltemplateComponent } from './tbltemplate/tbltemplate.component';
 
 
 @NgModule({
@@ -25,18 +26,19 @@ import { SchemaviewComponent } from './schemaview/schemaview.component';
     AppComponent,
     UsersdbComponent,
     DblistComponent,
-    TableinfoComponent,
-    DbinfoComponent,
-    RefertableComponent,
     StatusbarComponent,
     CodescriptComponent,
     CodesectionComponent,
     MenubarComponent,
-    TablelistComponent,
     SigninComponent,
     SignupComponent,
     VersionlistComponent,
-    SchemaviewComponent
+    SchemaviewComponent,
+    SchemasectionComponent,
+    TableviewComponent,
+    ScriptstatusComponent,
+    DbtemplateComponent,
+    TbltemplateComponent
   ],
   imports: [
     BrowserModule,
