@@ -19,6 +19,9 @@ import { TableviewComponent } from './tableview/tableview.component';
 import { ScriptstatusComponent } from './scriptstatus/scriptstatus.component';
 import { DbtemplateComponent } from './dbtemplate/dbtemplate.component';
 import { TbltemplateComponent } from './tbltemplate/tbltemplate.component';
+import { ArrbtnComponent } from './arrbtn/arrbtn.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { ScriptlistComponent } from './scriptlist/scriptlist.component';
 
 
 @NgModule({
@@ -38,12 +41,16 @@ import { TbltemplateComponent } from './tbltemplate/tbltemplate.component';
     TableviewComponent,
     ScriptstatusComponent,
     DbtemplateComponent,
-    TbltemplateComponent
+    TbltemplateComponent,
+    ArrbtnComponent,
+    ScriptlistComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,15 @@
+.users{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0.5rem;
+    border: 2px solid gray;
+}
+
+.userentry{
+    display: flex;
+    align-items: center;
+}
+
+.users > div:not(:nth-child(1)){
+    margin-top: 0.5rem;
+}

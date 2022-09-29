@@ -1,11 +1,3 @@
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
-<!-- * * * * * * * to get started with your project! * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 <div class="appmenu">
     <app-menubar></app-menubar>
@@ -14,36 +6,33 @@
 <section class="mainsection">
     <div class="dbouter">
         <div class="dbnav">
-            <button>InstallDB</button>
-            <button>DBList</button>
-            <button>Scripts</button>
+            <button id = "scriptbtn">Scripts</button>
+            <button id = "dblistbtn">DBList</button>
+            <button id = "installver">InstallDB</button>
         </div>
-        <div class="dbscroll">
-            <div class ="dbinner">
-                <app-dblist>
-                </app-dblist>
+        <div class="sideviews">
+            <div class="scriptdiv"></div>
+            <div class="dblistall">
+
             </div>
+            <div class="dbscroll">
+                <div class ="dbinner">
+                    <app-dblist>
+                    </app-dblist>
+                </div>
+            </div>
+
         </div>
-        
-    
     </div>
     <div class="viewarea">
-
+        <div class="codeview">
+            <app-codesection></app-codesection>
+        </div>
+        <div class="schemaview">
+            <app-schemasection></app-schemasection>
+        </div>
     </div>
 </section>
 
-
-
-
-
-
-
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 <router-outlet></router-outlet>

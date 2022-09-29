@@ -1,5 +1,15 @@
 $menucolor:rgb(59, 48, 48);;
 $btntxtclr:white;
+$first_sec: 250px;
+$mnu_btn_width: 0.5rem;
+
+
+.firstsec{
+    display: flex;
+    align-items: center;
+    max-width: $first_sec;
+    height: 100%;
+}
 
 .menubar{
     width: 100%;
@@ -11,11 +21,11 @@ $btntxtclr:white;
 
 .menubtns{
     height: 100%;
-    width: fit-content;
+    width: 100%;
     display: flex;
 }
 
-.menubtns button{
+.menubtn button{
     height: 100%;
     text-align: center;
     width: 100%;
@@ -24,54 +34,37 @@ $btntxtclr:white;
     color: $btntxtclr;
 }
 
-
 .menubtn{
-    height: 100%;
-    width: 50px;
-
+    min-width: $mnu_btn_width;
 }
-
-
 
 .menubtn button:hover{
     background-color: white;
     color: black;
 }
 
-.actionbtn button:hover{
-    background-color: white;
-    color: black;
-}
-
 .appname{
     height: 100%;
-    width: 100%;
     display: flex;
-    
+    align-items: center;
 }
 
 .apptitle{
     width: 100%;
-    height: 100%;
+    height: fit-content;
     color: white;
-}
-
-
-.actionbtns{
-    width: fit-content;
-    height: 100%;
-    display: flex;
-    
-}
-
-.actionbtns button{
-    height: 100%;
     text-align: center;
-    width: 5rem;
-    border: none;
-    color: $btntxtclr;
-    background-color: $menucolor;
 }
+
+
+
+
+
+
+
+
+
+
 
 .logreg{
     width: 300px;
@@ -116,4 +109,50 @@ $btntxtclr:white;
     background-color: rgb(92, 76, 76);
     
     
+}
+
+
+.mindiv{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $menucolor;
+}
+
+.minimg{
+    height: 1px;
+    width: 15px;
+    background-color: white;
+}
+
+
+.actionbtns button:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+.actionbtns{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    
+}
+
+.actionbtn{
+    width: 5rem;
+    height: 100%;
+}
+
+.actionbtns button{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    
+    border: none;
+    color: $btntxtclr;
+    background-color: $menucolor;
 }

@@ -1,0 +1,14 @@
+
+.arrbtn{
+    width: 8px;
+    height:8px;
+    display: flex;
+    margin: 50px;
+    transform: rotate(45deg);
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+}
+
+.rotate-arrow{
+    transform:rotate(135deg);
+}

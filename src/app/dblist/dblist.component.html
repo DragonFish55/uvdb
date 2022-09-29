@@ -1,13 +1,19 @@
 <div class="dblist">
+    
     <div  *ngFor="let db of dbases; let i = index" class="dbchoices">
         <div class="dbchoice">
             <div class="dbinner">
                 
                 <div class = "dbname">{{db.name}}</div>
                 <div class="versionlist">
+                    <div class="drpdownver">
+                        <div class="selectval">yo</div>
+                        <button>-></button>
+                    </div>
                     <app-versionlist></app-versionlist>
                 </div>
                 <div class = "dbdwnld">
+                    
                     <button (click) = "downloadDB(db.name)">Download</button>
                 </div>
             </div>

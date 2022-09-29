@@ -1,1 +1,19 @@
-<p>codesection works!</p>
+<div *ngIf="leftTab.length > 0" id = "codesection" class="codesection">
+    <div class="codesec1">
+        <div class="tabbar" *ngFor = "let x of leftTab">
+            <div class="tab">
+                
+            </div>
+        </div>
+        <div class="codeouter"></div>
+    </div>
+    <div class="codesec2">
+        <div class="tabbar" *ngFor = "let y for u in rightTab"></div>
+        <div class="codeouter">
+
+        </div>
+    </div>
+    
+    
+    <div class = "number"></div>
+</div>

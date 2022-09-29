@@ -1,5 +1,8 @@
+
+$first_sec: 250px;
+
 .dbouter{
-    width: 250px;
+    width: $first_sec;
     height: 100%;
     background-color: gray;
     font-size: 15px;

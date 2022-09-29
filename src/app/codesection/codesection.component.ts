@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-codesection',
@@ -7,7 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CodesectionComponent implements OnInit {
 
+  leftTab = [];
+
   constructor() { }
+
+  
+
+
 
   ngOnInit(): void {
   }
